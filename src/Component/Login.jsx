@@ -78,7 +78,7 @@ function Login(){
         
         <div className="bg-black text-white p-4 m-8 mt-0 bg-opacity-80 rounded w-full mx-auto sm:w-full md:mx-auto md:w-3/5 lg:w-2/5 xl:w-2/5">
            
-           {fail && <p className="text-3xl font-bold text-black p-3 w-[354px] bg-yellow-500 rounded md:ml-12 lg:ml-8">{fail}</p>}
+           {fail && <p className="text-3xl font-bold text-black p-3 w-[354px] bg-yellow-500 rounded ml-4 sm:ml-24 md:ml-5 lg:ml-0 ">{fail}</p>}
            <h1 className="text-white text-3xl font-bold mr-64 lg:mr-60">Sign In</h1>
                 <div>
                 <input onChange={handleuser} className="p-3 mt-6 pr-36 bg-black bg-opacity-70 border border-gray-500 rounded font-semibold" type="email" placeholder="Email address or number"></input><br></br>
@@ -102,7 +102,7 @@ function Login(){
                 <p className="text-gray-300 mr-36 sm:mr-36 md:mr-[135px] lg:mr-[136px]">New to Netflix?<a className="font-bold text-white hover:underline" href="#">Sign up now.</a></p><br></br>
                 </div>
                 <div className="flex flex-col justify-start w-full text-sm/3">
-                <p className="text-gray-400 text-md sm:tracking-widest lg:tracking-normal xl:tracking-wide ml-4 sm:ml-24  md:ml-6 lg:ml-[8px] xl:ml-[56px] xl:text-sm text-left md:text-left leading-4">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p><br></br>
+                <p className="text-gray-400 text-md sm:tracking-widest md:tracking-normal lg:tracking-normal xl:tracking-wide ml-4 sm:ml-24  md:ml-6 lg:ml-[8px] xl:ml-[56px] xl:text-sm text-left md:text-left leading-4">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p><br></br>
                 <p className="mr-[278px] text-blue-700 text-sm font-semibold underline md:mr-[265px] lg:mr-68 xl:ml-[5px]"><a href="">Learn more.</a></p>
             </div>
         </div>
