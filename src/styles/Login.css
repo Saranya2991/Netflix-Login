@@ -1,0 +1,9 @@
+/* Login.css */
+.login-bg {
+  background-image: url('../images/background.png');
+  background-size: cover;  /* prevent cover recalculating */
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;           /* ensure it fills viewport initially */
+  width: 100%;
+}
