@@ -56,7 +56,7 @@ function Login(){
     e.preventDefault()
     if(!validate()) return
     
-     var logindetails = axios.post("https://localhost:5000/login",{"username":user,"password":pass})
+     var logindetails = axios.post("http://localhost:5000/login",{"username":user,"password":pass})
     logindetails.then(function(data){
      
       if(data.data === true)

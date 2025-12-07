@@ -3,7 +3,7 @@ import './App.css'
 
 import Dashboard from './Component/Dashboard'
 import Login from './Component/Login'
-import Fail from "./Component/Fail"
+
 
 function App() {
   
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Login/>}></Route>
       <Route path='/dashboard' element={<Dashboard/>}></Route>
-      <Route path='/fail' element={<Fail/>}></Route>
+    
     </Routes>
     </BrowserRouter>
     </>  
