@@ -1,13 +1,19 @@
-import React from "react";
-import "../styles/Login.css";
-
 export default function LoginLayout({ children }) {
   return (
-    <div className="login-bg min-h-screen w-screen overflow-x-hidden">
-      <div className="relative z-10">
+    <div className="
+      min-h-screen 
+      w-full 
+      bg-[url('/src/images/background.png')] 
+      bg-cover 
+      bg-center 
+      bg-no-repeat
+      bg-fixed
+    ">
+      <div className="min-h-screen w-full bg-black/20">
         {children}
       </div>
     </div>
   );
 }
+
 

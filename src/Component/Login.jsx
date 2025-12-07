@@ -74,11 +74,11 @@ function Login(){
    <LoginLayout>
         <div className="h-full flex flex-col opacity-100 p-0 m-0">
         
-        <img src={logo} className="w-32 md:w-48 p-4 ml-4 md:ml-32"></img>
+        <img src={logo} className="w-32 md:w-48 p-1 ml-4 md:ml-32"></img>
         
         <div className="bg-black text-white p-4 m-8 mt-0 bg-opacity-80 rounded w-full mx-auto sm:w-full md:mx-auto md:w-3/5 lg:w-2/5 xl:w-2/5">
            
-           {fail && <p className="text-3xl font-bold text-black p-3 w-[354px] bg-yellow-500 rounded ml-4 sm:ml-24 md:ml-5 lg:ml-0 ">{fail}</p>}
+           {fail && <p className="text-3xl font-bold text-black p-3 w-[354px] bg-yellow-500 rounded ml-4 sm:ml-24 md:ml-5 lg:ml-12 ">{fail}</p>}
            <h1 className="text-white text-3xl font-bold mr-64 lg:mr-60">Sign In</h1>
                 <div>
                 <input onChange={handleuser} className="p-3 mt-6 pr-36 bg-black bg-opacity-70 border border-gray-500 rounded font-semibold" type="email" placeholder="Email address or number"></input><br></br>
