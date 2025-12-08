@@ -95,15 +95,15 @@ function Login(){
                 </div>
                 </div>
                 <div className="flex flex-col justify-start leading-4 mt-0 w-full text-sm">
-                <div className="ml-7 sm:ml-24 md:ml-6 lg:ml-[5px] xl:ml-[55px] text-sm sm:text-lg flex items-center w-full">
+                <div className="ml-12 sm:ml-24 md:ml-6 lg:ml-[5px] xl:ml-[55px] text-sm sm:text-lg flex items-center w-full">
                     <input className="w-5 h-5" type="checkbox"></input>
                     <label className="ml-2">Remember me.</label>
                  </div><br></br>
-                <p className="text-gray-300 mr-7 sm:mr-44 md:mr-[160px] lg:mr-[155px]">New to Netflix?<a className="font-bold text-white hover:underline" href="#">Sign up now.</a></p><br></br>
+                <p className="text-gray-300 mr-10 sm:mr-44 md:mr-[160px] lg:mr-[155px]">New to Netflix?<a className="font-bold text-white hover:underline" href="#">Sign up now.</a></p><br></br>
                 </div>
                 <div className="flex flex-col justify-start w-full text-sm/3">
-                <p className="text-gray-400 text-xs sm:text-sm tracking-tighter sm:tracking-widest md:tracking-normal lg:tracking-normal xl:tracking-wide ml-7 sm:ml-24  md:ml-6 lg:ml-[8px] xl:ml-[56px] xl:text-sm text-left md:text-left leading-4">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p><br></br>
-                <p className="mr-[130px] sm:mr-[278px] text-blue-700 text-sm font-semibold underline md:mr-[265px] lg:mr-68 xl:ml-[5px]"><a href="">Learn more.</a></p>
+                <p className="text-gray-400 text-xs sm:text-sm tracking-tighter sm:tracking-widest md:tracking-normal lg:tracking-normal xl:tracking-wide ml-12 sm:ml-24  md:ml-6 lg:ml-[8px] xl:ml-[56px] xl:text-sm text-left md:text-left leading-4">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p><br></br>
+                <p className="mr-[144px] sm:mr-[278px] text-blue-700 text-sm font-semibold underline md:mr-[265px] lg:mr-68 xl:ml-[5px]"><a href="">Learn more.</a></p>
             </div>
         </div>
         </div>
