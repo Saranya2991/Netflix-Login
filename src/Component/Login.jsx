@@ -78,7 +78,7 @@ function Login(){
         
         <div className="bg-black text-white p-4 m-8 mt-0 bg-opacity-80 rounded w-full mx-auto sm:w-full md:mx-auto md:w-3/5 lg:w-2/5 xl:w-2/5">
            
-           {fail && <p className="text-3xl font-bold text-black p-3 w-[354] md:w-[354px] bg-yellow-500 rounded ml-4 sm:ml-24 md:ml-5 lg:ml-12 ">{fail}</p>}
+           {fail && <p className="text-3xl font-bold text-black p-3 w-[345] sm:w-[350px] md:w-[354px] bg-yellow-500 rounded ml-1 sm:ml-24 md:ml-5 lg:ml-0 ">{fail}</p>}
            <h1 className="text-white text-3xl font-bold mr-32 sm:mr-64 lg:mr-60">Sign In</h1>
                 <div>
                 <input onChange={handleuser} className="p-3 mt-6 pr-30 sm:pr-36 bg-black bg-opacity-70 border border-gray-500 rounded font-semibold" type="email" placeholder="Email address or number"></input><br></br>
